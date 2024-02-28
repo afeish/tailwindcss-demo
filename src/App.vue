@@ -33,7 +33,7 @@ const hidden = ref(true)
       <nav class="text-right">
         <div class="flex justify-between items-center">
           <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-            <a href="/" class="hover:text-gray-800">Food Ninja</a>
+            <a href="/" class="hover:text-gray-800">Food Shop</a>
           </h1>
           <div :class="`px-4 cursor-pointer ${hidden ? 'md:hidden' : ''}`" id="burger" @click="hidden = !hidden">
             <Bars4Icon class="h-6 w-6 text-gray-500" />
@@ -78,7 +78,7 @@ const hidden = ref(true)
 
       <header>
         <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
-        <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        <h3 class="text-2xl font-semibold">For Customers</h3>
       </header>
 
       <div>
